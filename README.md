@@ -10,7 +10,6 @@ This template runs on:
 - **Jaeger** – for distributed tracing (via OpenTelemetry)
 - **Docker Compose** – to run everything locally
 
----
 
 ## ⚙️ Stack Overview
 
@@ -22,7 +21,6 @@ This template runs on:
 | Jaeger      | Debug and trace agents via distributed tracing                |
 | Alembic     | Manages database migrations                                   |
 
----
 
 ## 🧩 Features
 
@@ -34,7 +32,6 @@ This template runs on:
 - Webhook support for delivering results externally
 - Built-in tracing via Jaeger and OpenTelemetry
 
----
 
 ## 🚀 Getting Started
 
@@ -98,7 +95,6 @@ Useful for debugging, running migrations, or launching ad-hoc scripts.
 
 > ✅ The app uses `watchdog` to auto-reload on code changes inside the container.
 
----
 
 ## 🧪 Example API Usage
 
@@ -113,7 +109,6 @@ curl -X POST http://localhost:8000/run-agent \
   }'
 ```
 
----
 
 ## 📂 Project Structure
 
@@ -135,8 +130,6 @@ curl -X POST http://localhost:8000/run-agent \
 │   ├── schemas/
 │   └── services/
 ```
-
----
 
 ## 🔮 What's Next?
 
