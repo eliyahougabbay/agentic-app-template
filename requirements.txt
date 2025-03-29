@@ -1,0 +1,12 @@
+fastapi==0.115.11
+httpx==0.28.1
+uvicorn==0.34.0
+celery==5.4.0
+redis==5.2.1
+SQLAlchemy==2.0.40
+alembic==1.15.2
+pydantic==2.10.6
+pydantic-ai[logfire]==0.0.43
+logfire==3.9.0
+openai==1.65.1
+watchdog==6.0.0

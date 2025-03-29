@@ -1,0 +1,54 @@
+# ─────────────── Python ───────────────
+
+# Byte-compiled files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Egg and build artifacts
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ─────────────── Alembic ───────────────
+
+# Compiled Python files in versions
+alembic/versions/__pycache__/
+
+# Optional: ignore generated migrations
+# alembic/versions/*.py
+
+# ─────────────── Docker ───────────────
+
+# Optional Docker artifacts
+*.pid
+*.db
+*.sock
+docker-compose.override.yml
+
+# ─────────────── Logs ───────────────
+
+*.log
+
+# ─────────────── Env & Config ───────────────
+
+# dotenv files (secrets, API keys)
+.env
+.env.*
+
+# ─────────────── OS / Editor ───────────────
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["alembic/versions"]
+
+# Linting rules to apply (E = pycodestyle, F = pyflakes, B = bugbear, I = isort)
+select = ["E", "F", "B", "I"]
+fix = true
+unsafe-fixes = true
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
